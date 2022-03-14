@@ -1,7 +1,7 @@
-# Modules README (part):
-## WRF Cloud Type (Convective/Stratiform Masking and Storm Mode Classification) Modules
+# Cloud System Classification README:
+## Convective/Stratiform masking and Storm Mode Classification modules
 
-The Cloud Type modules include 
+The Cloud System Classification modules include 
 1. the **Convective/Stratiform Masking** module and (`./Conv_Stra_Mask`)
 2. the **Storm Mode Classification** module (`./Storm_Mode_Class`).
 
@@ -37,7 +37,7 @@ CS_mask, Conv_Cent, Bkgnd_REFL = conv_stra_sep( dbz_data, lat, lon, coor_type, g
     * 5: convective (background reflectivity > 40 dBZ)
 
 #### Processing Steps:
-![](https://github.com/yuhungjui/Modules_Py/blob/main/Conv_Stra_Mask/Conv_Stra_Mask_steps.png)
+![](https://github.com/yuhungjui/Cloud_System_Classification/blob/main/Conv_Stra_Mask/Conv_Stra_Mask_steps.png)
 
 *:heavy_exclamation_mark: Please see the codes header for more details on output **Conv_Cent** and **Bkgnd_REFL**.*
 
@@ -77,7 +77,7 @@ Storm_Mode = storm_mode_class5.merge_to_Storm_Mode(DCC_mask, OCC_mask, WCC_mask,
     * 5: BSR
 
 #### Flow Chart:
-![](https://github.com/yuhungjui/Modules_Py/blob/main/Storm_Mode_Class/Storm_Mode_Class_flow.png)
+![](https://github.com/yuhungjui/Cloud_System_Classification/blob/main/Storm_Mode_Class/Storm_Mode_Class_flow.png)
 
 ------
 
@@ -96,4 +96,4 @@ Storm_Mode = storm_mode_class5.merge_to_Storm_Mode(DCC_mask, OCC_mask, WCC_mask,
 
 ------
 
-Last update - 20220224 - Hungjui Yu
+Last update - 20220314 - Hungjui Yu
