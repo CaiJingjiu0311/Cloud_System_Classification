@@ -11,6 +11,7 @@ The Storm Mode Classification methodology is based on the algorithm from
 according to [ moderate ] and [ strong ] thresholds.
  
 The strom modes are,
+    0: others
     1: Deep Convective Cores (DCC)
     2: Ordinary Convective Cores (OCC)
     3: Wide Convective Cores (WCC)
@@ -54,7 +55,7 @@ Output (masked as 1/0):
                  5: BSR
 
 
-Hungjui Yu 20211216
+Hungjui Yu 20220314
 
 '''
 ## ________________________________________________________________________________________________

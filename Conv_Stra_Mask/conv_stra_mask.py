@@ -79,7 +79,7 @@ Output:
                 = 22      Convective Center identified by the Peakedness criteria 2 (Function 2 middle in SHY95)
                 = 23      Convective Center identified by the Peakedness criteria 3 (Function 2 bottom in SHY95)
     
-    Bkgnd_REFL  2-D array of the Bcakground Reflectivity calculated from the actual reflectivity (dBZ).
+    Bkgnd_REFL  2-D array of the Background Reflectivity calculated from the actual reflectivity (dBZ).
                 The calculation is done by a smoothing (moving averaging) filter. According to SHY95, a 11-km radius 
                 circle was used to mimic the 400-km^2 area from Churchill and Houze (1984). Herein, we directly use the 
                 20-km length (sqrt(400 km^2)) divided by the grid_res (4-km in this case) for the filter size.
