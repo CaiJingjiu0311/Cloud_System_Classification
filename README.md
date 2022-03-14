@@ -97,9 +97,9 @@ Storm_Mode = storm_mode_class5.merge_to_Storm_Mode(DCC_mask, OCC_mask, WCC_mask,
 ### Acknowledgement:
 
 * Department of Atmospheric Science at Colorado State University: 
- * Nick Guy, Brody Fuchs for initialization of the Conv/Stra mask procedure.
- * Zach Bruick for structure of the algorithms.
- * Prof. Kristen L. Rasmussen, Rung Panasawatwong, Marqi Rocque for testing and analyses.
+  * Nick Guy, Brody Fuchs for initialization of the Conv/Stra mask procedure.
+  * Zach Bruick for structure of the algorithms.
+  * Prof. Kristen L. Rasmussen for advising, and Rung Panasawatwong and Marqi Rocque for testing and analyses.
 
 ------
 
