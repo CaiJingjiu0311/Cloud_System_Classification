@@ -94,6 +94,13 @@ Storm_Mode = storm_mode_class5.merge_to_Storm_Mode(DCC_mask, OCC_mask, WCC_mask,
 * Yuter, S. E., and R. A. Houze, Jr., 1997: Measurements of raindrop size distributions over the Pacific warm pool and implications for Z-R relations. J. Appl. Meteor., 36, 847-867. ([link](https://atmos.uw.edu/MG/PDFs/JAM97_yute_measurements.pdf))
 * Yuter, S. E., and R. A. Houze, Jr., 1998: The natural variability of precipitating clouds over the western Pacific warm pool. Quart. J. Roy. Meteor. Soc., 124, 53-99. ([link](https://atmos.uw.edu/MG/PDFs/QJR98_yute_natural.pdf))
 
+### Acknowledgement:
+
+* Department of Atmospheric Science at Colorado State University: 
+ * Nick Guy, Brody Fuchs for initialization of the Conv/Stra mask procedure.
+ * Zach Bruick for structure of the algorithms.
+ * Prof. Kristen L. Rasmussen, Rung Panasawatwong, Marqi Rocque for testing and analyses.
+
 ------
 
 Last update - 20220314 - Hungjui Yu
