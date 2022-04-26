@@ -101,6 +101,9 @@ Storm_Mode = storm_mode_class5.merge_to_Storm_Mode(DCC_mask, OCC_mask, WCC_mask,
   * Zach Bruick for structure of the algorithms.
   * Prof. Kristen L. Rasmussen for advising, and Rung Panasawatwong and Marqi Rocque for testing and analyses.
 
+### DOI:
+[![DOI](https://zenodo.org/badge/469831792.svg)](https://zenodo.org/badge/latestdoi/469831792)
+
 ------
 
 Last update - 20220314 - Hungjui Yu
