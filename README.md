@@ -1,5 +1,6 @@
 # Cloud System Classification README:
 ## Convective/Stratiform masking and Storm Mode Classification modules
+[![DOI](https://zenodo.org/badge/469831792.svg)](https://zenodo.org/badge/latestdoi/469831792)
 
 The Cloud System Classification modules include 
 1. the **Convective/Stratiform Masking** module and (`./Conv_Stra_Mask`)
@@ -101,7 +102,7 @@ Storm_Mode = storm_mode_class5.merge_to_Storm_Mode(DCC_mask, OCC_mask, WCC_mask,
   * Zach Bruick for structure of the algorithms.
   * Prof. Kristen L. Rasmussen for advising, and Rung Panasawatwong and Marqi Rocque for testing and analyses.
 
-### DOI:
+### Cite this module:
 [![DOI](https://zenodo.org/badge/469831792.svg)](https://zenodo.org/badge/latestdoi/469831792)
 
 ------
